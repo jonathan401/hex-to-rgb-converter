@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hex converter</title>
+  </head>
+  <body>
+    <main>
+      <h1>hex to rgb</h1>
+      <div class="color-box"></div>
+      <form autocomplete="off">
+        <div class="color-preview" aria-label="color-preview"></div>
+        <fieldset class="form-group" id="hex-field">
+          <legend>HEX</legend>
+          <label>Enter hex value</label>
+          <input
+            class="form-control"
+            id="hex"
+            type="text"
+            placeholder="enter hex value"
+            name="hex"
+          />
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>RGB</legend>
+          <!-- <label></label> -->
+          <button type="button" class="btn disabled">copy</button>
+          <input
+            class="form-control"
+            id="rgb"
+            type="text"
+            name="rgb"
+            disabled
+          />
+        </fieldset>
+        <!-- <div class="result">rgb</div> -->
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

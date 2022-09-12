@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+input {
+  width: 100%;
+}
+
+form {
+  max-width: 16rem;
+  /* width: 100%; */
+  /* background-color: blue; */
+  margin: 3rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-preview {
+  width: 80%;
+  border-radius: 0.3rem;
+  height: 2.5rem;
+  background-color: red;
+  margin-bottom: 0.7rem;
+}
+
+#hex-field {
+  max-width: 10rem;
+}
+
+fieldset {
+  padding: 0 1rem;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+legend {
+  text-align: center;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+label {
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.form-control {
+  margin: 0.4rem 0;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.2rem;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  outline: 2px solid #999;
+  outline-offset: 1px;
+}
+
+.btn {
+  border: 0;
+  background-color: #444;
+  color: #eee;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.9rem;
+}
+
+.btn:focus {
+  outline: 2px solid #444;
+  outline-offset: 1px;
+}
+
+.btn:not(.disabled):hover {
+  background-color: #555;
+}
+
+.btn.disabled,
+.btn.disabled:hover,
+.btn.disabled:focus {
+  /* cursor: ; */
+  outline: 0;
+  cursor: initial;
+  background-color: #999;
+}
