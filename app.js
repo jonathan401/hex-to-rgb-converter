@@ -1,5 +1,4 @@
-console.log("trying out the hex color converter");
-// dom
+// dom variables
 const form = document.querySelector("form");
 const copyBtn = document.querySelector(".btn");
 const colorBox = document.querySelector(".color-box");
