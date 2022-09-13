@@ -47,7 +47,7 @@ input {
 form {
   background-color: var(--form-bg);
   border-radius: var(--border-radius);
-  max-width: 17rem;
+  max-width: 20rem;
   padding: 1.5rem;
 }
 
@@ -72,7 +72,7 @@ form {
 
 label {
   display: block;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
   color: #7e88c3;
   font-size: 0.8rem;
 }
@@ -90,16 +90,32 @@ label {
   border: 1px solid var(--main-bg);
   border-radius: var(--border-radius);
   padding: 0.8rem;
-  /* transition: all 0.19s; */
+  transition: all 0.19s;
 }
 
 .form-control:focus {
-  outline: 2px solid var(--btn-text);
+  outline: 1px solid var(--btn-text);
   outline-offset: 1px;
 }
 
+.form-control + .error {
+  color: red;
+  opacity: 0;
+  font-size: 0.8rem;
+  font-family: inherit;
+  margin: 0.3rem auto;
+}
+
+.form-control.invalid {
+  outline-color: red;
+}
+
+.form-control.invalid + .error {
+  opacity: 1;
+}
+
 .btn {
-  margin: 0.3rem 0;
+  margin: 0.5rem 0;
   border: 0;
   background-color: var(--btn-bg);
   color: var(--btn-text);
