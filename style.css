@@ -63,7 +63,7 @@ form {
   width: 50%;
   border-radius: var(--border-radius);
   height: 2.5rem;
-  background-color: red;
+  background-color: var(--main-bg);
 }
 
 .form-group {
