@@ -89,7 +89,7 @@ label {
   background-color: var(--main-bg);
   border: 1px solid var(--main-bg);
   border-radius: var(--border-radius);
-  padding: 0.6rem 0.7rem;
+  padding: 0.8rem;
   /* transition: all 0.19s; */
 }
 
