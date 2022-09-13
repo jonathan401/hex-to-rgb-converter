@@ -68,7 +68,7 @@ const toRGB = (string) => {
 copyBtn.addEventListener("click", () => {
   if (rgbField.value) {
     navigator.clipboard.writeText(rgbField.value);
-    copyBtn.textContent = "copied";
+    copyBtn.textContent = "copied to clipboard";
     setTimeout(() => (copyBtn.textContent = "copy"), 1900);
   }
 });
