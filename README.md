@@ -20,3 +20,6 @@ I built the logic of the converter using the following logic:
 ## Conclusion
 
 This solution certainly isn't the best one. I know there are still a lot of ways I could improve it and avoid code repetition. This is my first attempt. Definetly coming back to improve on this.
+
+## Resources
+The UI interface design and idea was gotten from the [password generator challenge](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh) by [frontendmentor](https://www.frontendmentor.io/home).
