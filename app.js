@@ -2,7 +2,7 @@ console.log("trying out the hex color converter");
 // dom
 const form = document.querySelector("form");
 const copyBtn = document.querySelector(".btn");
-const colorBox = document.querySelector(".color-preview");
+const colorBox = document.querySelector(".color-box");
 const hexField = document.querySelector("#hex");
 const rgbField = document.querySelector("#rgb");
 
@@ -76,7 +76,7 @@ copyBtn.addEventListener("click", () => {
 hexField.addEventListener("keyup", () => {
   let result = hexField.value.trim();
   if (hexRegex.test(result)) {
-    console.log(result);
+    // console.log(result);
     toRGB(result);
   }
 });
