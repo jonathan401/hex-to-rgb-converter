@@ -48,7 +48,7 @@ copyBtn.addEventListener("click", () => {
   }
 });
 
-hexField.addEventListener("keyup", () => {
+hexField.addEventListener("input", () => {
   let result = hexField.value.trim();
   if (!hexRegex.test(result) && result.length) {
     // console.log(result);
